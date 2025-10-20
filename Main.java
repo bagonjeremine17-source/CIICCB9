@@ -13,10 +13,6 @@ public class Main {
             System.out.println(plant1.name);
             System.out.println(plant1.getBranch());
 
-
-
-
-
         }
 
     }
@@ -31,10 +27,6 @@ public class Main {
         void setBranch(int leaves){
 
             this.leaves=leaves;
-
-
-
-        
 
 
          } 
