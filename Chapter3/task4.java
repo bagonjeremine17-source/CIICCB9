@@ -4,9 +4,9 @@ package Chapter3;
 public class task4 {
     public static void main(String[] args) {
        
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter a string to check if it's a palindrome: ");
-        String originalString = scanner.nextLine();
+        String originalString = scan.nextLine();
 
         if (isPalindrome(originalString)) {
             System.out.println("'" + originalString + "' is a palindrome.");
@@ -14,7 +14,7 @@ public class task4 {
             System.out.println("'" + originalString + "' is not a palindrome.");
         }
 
-        scanner.close();
+        scan.close();
     }
     public static boolean isPalindrome(String str) {
         // Handle case-insensitivity by converting to lowercase
