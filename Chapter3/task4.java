@@ -3,14 +3,20 @@ package Chapter3;
 
 public class task4 {
     public static void main(String[] args) {
+
+        
        
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a string to check if it's a palindrome: ");
+        System.out.print("Enter a string: ");
         String originalString = scan.nextLine();
 
-        if (isPalindrome(originalString)) {
+        StringBuilder sb = new StringBuilder(originalString);
+
+        if (isPalindrome(sb.toString())) {
             System.out.println("'" + originalString + "' is a palindrome.");
-        } else {
+        } 
+
+        else {
             System.out.println("'" + originalString + "' is not a palindrome.");
         }
 
