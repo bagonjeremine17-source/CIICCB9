@@ -8,9 +8,9 @@ public class task2 {
         char dot = '.';
         boolean t = true;
         float f = 2.0f;
-        String output ="H"+e+i+i+o+" "+"W"+o+"rld"+" "+f+" "+t ;
+        String awtput ="H"+e+i+i+o+" "+"W"+o+"rld"+" "+f+" "+t ;
 
-        System.out.println(output);
+        System.out.println(awtput);
 
         
     }
