@@ -14,23 +14,23 @@ public class task5 {
         int fnum3 = s.nextInt();
 
 
-        if(fnum>=fnum2&&fnum>=fnum3){
+        if(fnum>fnum2&&fnum>fnum3){
             System.out.println("The Larges Number is "+fnum);
+           
         }
-        if (fnum2>=fnum&&fnum2>=fnum3) {
-            System.out.println("The Larges Number"+fnum2);
+        if (fnum2>fnum&&fnum2>fnum3) {
+            System.out.println("The Larges Number "+fnum2);
             
         }
-        if (fnum3>=fnum&&fnum3>=fnum2) {
+        if (fnum3>fnum&&fnum3>fnum2) {
 
             System.out.println("The Larges Number is "+fnum3);
             
         }
 
-        if (fnum == fnum2 && fnum2 == fnum3) {
+       else{
 
-            System.out.println("All number are equal");
-            
+            System.out.println("All numbers are equals");
         }
 
 
