@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class task7 {
 public static void main(String[] args) {
-    Scanner scn = new Scanner(System.in);
+    Scanner scann = new Scanner(System.in);
 
     System.out.print("Enter First Number: ");
-        int fnum = scn.nextInt();
+        int fnum = scann.nextInt();
 
     System.out.print("Enter Second Number: ");
-        int snum = scn.nextInt();
+        int snum = scann.nextInt();
 
         int m = fnum*snum, d = fnum/snum, a = fnum+snum, s = fnum-snum;
 
